@@ -1,0 +1,121 @@
+body{
+    --color-black: #000;
+  --color-mistyrose: #ffe6e6;
+  --color-ivory: #f7fcf0;
+  --color-white: #fff;
+}  
+
+@media (min-width: 1500px) {
+    body{
+        margin: 0;
+        box-sizing: border-box;
+    }    
+    .header{
+        margin: 40px 0 0 70px;
+        width: 90%;
+        
+    }
+    .navbar-nav{
+        padding-left: 30px;
+        width: 70%;
+        margin: auto;
+        font-size: 1.2rem;
+
+    }
+    .nav-item{
+        margin-right: 30px;
+    }
+    .navbar-brand{
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+    .main-section{
+        margin-top: 30px;
+        background-color: rgba(142, 185, 236, 0.67);
+    }
+    .main{
+        display: flex;
+    }
+    .slogan{
+        padding:5%;
+        padding-left: 9%;
+        color: white;
+        font-weight: bold;
+        float: left;
+        font-size: 3.4rem;
+        width: 60%;
+    }
+    .slogan-img{
+        padding-top: 60px;
+        float: right;
+        width: 550px;
+        height: 350px;
+    }
+
+    .exp{
+        position: relative;
+        bottom: 45px;
+        left: 140px;
+    }
+
+    .feat-head{
+        margin-top: 130px;
+    }
+    .feat-head h2{
+        font-size: 3rem;
+    }
+    .feat-head img{
+        width: 20%;
+        position: relative;
+        top: -15px;
+    }
+    .card{
+        width: 90%;
+        margin:20px;
+        margin-bottom: 30px;
+    }
+    .card:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .crd{
+        margin-top: 30px;
+        width: 400px;
+        height: 300px;
+    }
+    .whyimg{
+        list-style-type: none;
+    }
+    .whyimg li {
+        margin: 30px;
+        margin-top: 50px;
+        display: inline-block; 
+        width: 8%; 
+        box-sizing: border-box; 
+    }
+    .whyimg img {
+        width: 100%; 
+        height: auto;
+        display: block; 
+    }
+    .carousel{
+        position: relative;
+        left: 50px;
+        width: 80%;
+    }
+    .carousel img{
+        width: 700px;
+        height: 600px;
+    }
+   
+    .no{
+        font-size: 4rem;
+        letter-spacing: 3px;
+        font-weight: 700;
+        margin: auto;
+        text-align: center;
+        margin-top: 200px;
+        color: rgba(0, 0, 0, 0.35);
+    }
+
+}

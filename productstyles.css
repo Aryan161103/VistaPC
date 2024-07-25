@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}    
+.header{
+    margin: 40px 0 0 70px;
+    width: 90%;
+    
+}
+.navbar-nav{
+    padding-left: 30px;
+    width: 70%;
+    margin: auto;
+    font-size: 1.2rem;
+
+}
+.nav-item{
+    margin-right: 30px;
+}
+.navbar-brand{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.laptop{
+    background-color: rgba(142, 185, 236, 0.67);
+    margin-top: 0px;
+}
+
+.laptop-head{
+    font-weight: 700;
+    font-size: 2.5rem;
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.gaming-container{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.card{
+    margin-top: 30px;
+    height: 380px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.card:hover{
+    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.5);
+    overflow-clip-margin:content-box ;
+    width:19rem;
+}
+
+.link-btn{
+    position: absolute;
+    display:inline-block;
+    right: 30px;
+    top:70px;
+    z-index: 1;
+}
+
+.row{
+    margin-left: 2px;
+}
+
+.custom h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 50%;
+    font-weight: 700;
+}
+.custom h4{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.custom button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #3d405b;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   
+   button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   .custom button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .custom button:hover span {
+    padding-right: 15px;
+   }
+   
+   .custom button:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
